@@ -3,7 +3,7 @@ import images from "../Assets/img";
 
 const AboutUs = () => {
   return (
-    <section className="mt-10">
+    <section className="mt-10" id="aboutus">
       <p className="text-sky-500 font-bold text-center mx-4 text-3xl">
         About Us
       </p>

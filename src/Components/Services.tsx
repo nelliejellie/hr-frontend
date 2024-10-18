@@ -3,7 +3,10 @@ import images from "../Assets/img";
 
 const Services = () => {
   return (
-    <section className="bg-sky-500 h-[400px] w-[100%] mt-8 pt-4 text-white flex flex-col justify-around">
+    <section
+      id="services"
+      className="bg-sky-500 h-[400px] w-[100%] mt-8 pt-4 text-white flex flex-col justify-around"
+    >
       <h2 className="font-bold text-3xl">Our Services</h2>
       <div className="flex flex-row justify-around items-center">
         <div className="flex flex-col items-center">

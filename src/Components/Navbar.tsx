@@ -19,10 +19,12 @@ const Navbar = () => {
         <div>
           <ul className="list-none flex flex-row justify-around gap-7 font-bold">
             <li>Home</li>
-            <li>About Us</li>
-            <li>How it Works</li>
-            <li>Projects</li>
-            <li>Contact Us</li>
+            <li>
+              <a href="#aboutus">About Us</a>
+            </li>
+            <li>
+              <a href="#services">Services</a>{" "}
+            </li>
           </ul>
         </div>
         <div className="flex flex-row justify-around items-center gap-7">
