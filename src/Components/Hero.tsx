@@ -7,13 +7,13 @@ const Hero = () => {
   return (
     <Carousel>
       <div>
-        <img src={images.carousel} className="h-50" />
+        <img src={images.carousel} className="h-50" alt="ca" />
       </div>
       <div>
-        <img src={images.carousel2} className="h-50" />
+        <img src={images.carousel2} className="h-50" alt="ca" />
       </div>
       <div>
-        <img src={images.carousel2} className="h-50" />
+        <img src={images.carousel2} className="h-50" alt="ca" />
       </div>
     </Carousel>
   );
