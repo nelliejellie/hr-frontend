@@ -11,7 +11,11 @@ const Navbar = () => {
   return (
     <section>
       <section className="hidden md:flex flex-row justify-around items-center">
-        <img src={images.logo} alt="Description" className="w-[20%]" />
+        <img
+          src={images.logo}
+          alt="Description"
+          className="md:w-[20%] w-[40%]"
+        />
         <div>
           <ul className="list-none flex flex-row justify-around gap-7 font-bold">
             <li>Home</li>
@@ -32,7 +36,11 @@ const Navbar = () => {
       </section>
       <section className="flex md:hidden">
         <div className="md:hidden flex flex-row justify-between just items-center mx-2">
-          <img src={images.logo} alt="Description" className="w-[20%]" />
+          <img
+            src={images.logo}
+            alt="Description"
+            className="md:w-[20%] w-[40%]"
+          />
           <button onClick={handleToggle} className="text-3xl text-sky-500">
             {/* Menu Icon */}☰
           </button>
